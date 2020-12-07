@@ -64,7 +64,7 @@ namespace NitroxLauncher
                                    $"<iframe width=\"{MainFrame.ActualWidth}\" height=\"{MainFrame.ActualHeight}\" src=\"{{0}}\"" +
                                    "frameborder = \"0\" allow = \"autoplay; encrypted-media\" allowfullscreen></iframe>" +
                                    "</body></html>";
-                    webBrowser.NavigateToString(string.Format(embed, "https://www.youtube.com/embed/i8ju_10NkGY?autoplay=1"));
+                    webBrowser.NavigateToString(string.Format(embed, "https://www.youtube.com/watch?v=dQw4w9WgXcQ?autoplay=1"));
                     SideBarPanel.Visibility = Visibility.Hidden;
                 };
             };
